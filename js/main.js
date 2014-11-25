@@ -8,6 +8,6 @@ $('.panel-content').hide();
 
 $('.panel-title').click(function(){
 
-$('.panel-content').slideToggle();
-
+//$('.panel-content').slideToggle();
+$(this).next().slideToggle();
 });
